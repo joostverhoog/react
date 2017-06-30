@@ -259,7 +259,7 @@ You can put a string between the opening and closing tags and `props.children` w
 <MyComponent>Hello world!</MyComponent>
 ```
 
-This is valid JSX, and `props.children` in `MyComponent` will simply be the string `"Hello world!"`. HTML is unescaped, so you can generally write JSX just like you would write HTML in this way:
+This is valid JSX, and `props.children` in `MyComponent` will simply be the string `"Hello world!"`. HTML is escaped, so you can generally write JSX just like you would write HTML in this way:
 
 ```html
 <div>This is valid HTML &amp; JSX at the same time.</div>
